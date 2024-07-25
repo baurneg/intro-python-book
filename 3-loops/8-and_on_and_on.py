@@ -6,5 +6,5 @@ while True:
     print("and on")
     break
   
-# there is no command or conditin to exit the loop
+# there is no command or conditipn to exit the loop
     

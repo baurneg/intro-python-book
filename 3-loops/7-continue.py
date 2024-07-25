@@ -1,13 +1,13 @@
-# Your friends just showed up! Given the following list of names, 
-# use a for loop to greet each friend individually.
+# Write a for loop that iterates over the elements of the list 
+# cities and prints the length of each string. If the element 
+# is None, use the continue statement to skip forward to the 
+# next iteration without printing anything.
 
 # Copy Code
-# friends = ['Sarah', 'John', 'Hannah', 'Dave']
-# Expected outputCopy Code
-# Hello, Sarah!
-# Hello, John!
-# Hello, Hannah!
-# Hello, Dave!
-friends = ['Sarah', 'John', 'Hannah', 'Dave']
-for friend in friends:
-  print(f"Hello, {friend}!")
+cities = ['Istanbul', 'Los Angeles', 'Tokyo', None,
+          'Vienna', None, 'London', 'Beijing', None]
+          
+for city in cities:
+    if city == None:
+        continue
+    print(len(city))

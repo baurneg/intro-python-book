@@ -6,3 +6,10 @@ count = 1
 while count <= 3:
   print("Aloha!")
   count += 1
+
+print('Another way: ')
+
+for _ in range(3):
+  print('Aloha!')
+
+# _ is a common convention when no variable is used
