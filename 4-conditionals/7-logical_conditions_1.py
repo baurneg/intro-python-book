@@ -1,4 +1,4 @@
-Predict the output of the following code:
+# Predict the output of the following code:
 
 if False or True:
     print('Yes!')

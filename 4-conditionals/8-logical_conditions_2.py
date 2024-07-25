@@ -1,6 +1,6 @@
-Predict the output of the following code:
+# Predict the output of the following code:
 
-Copy Code
+# Copy Code
 if True and False:
     print('Yes!')
 else:

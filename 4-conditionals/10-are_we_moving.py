@@ -1,6 +1,6 @@
-Determine what the following code snippet prints. 
-First solve it in your head or on paper, 
-then run it in your Python environment to check the result.
+# Determine what the following code snippet prints. 
+# First solve it in your head or on paper, 
+# then run it in your Python environment to check the result.
 
 speed = 0
 acceleration = 24
@@ -9,11 +9,11 @@ is_moving = braking_force < acceleration and (speed > 0 or acceleration > 0)
 print(is_moving)
 
 
-Bonus question: Do we need the parentheses in the boolean
-expression or could we have written the following?:
+# Bonus question: Do we need the parentheses in the boolean
+# expression or could we have written the following?:
 
-Copy Code
-is_moving = braking_force < acceleration and speed > 0 or acceleration > 0
+# Copy Code
+# is_moving = braking_force < acceleration and speed > 0 or acceleration > 0
 
 # first evaluate in parenthesis. OR will return True if at least one
 # of the expresson is truthy. and has precedence over or. 
