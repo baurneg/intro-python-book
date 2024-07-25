@@ -9,6 +9,6 @@
 
 
 def squared_number(number):
-  return number * number
+  return number * number # or return number ** 2
 
 print(squared_number(3))
