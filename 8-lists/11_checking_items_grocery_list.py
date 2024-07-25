@@ -13,4 +13,4 @@ grocery_list = ['paprika', 'tofu', 'garlic', 'quinoa', 'carrots', 'broccoli', 'h
 for item in grocery_list:
   print(item)
 grocery_list.clear()
-print(grocery_list)
+print(grocery_list) #[]

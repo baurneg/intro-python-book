@@ -7,4 +7,4 @@ for score in scores:
   if score >= 100:
     count += 1
     
-print(count)
+print(count) # 3

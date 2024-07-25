@@ -23,3 +23,7 @@ def contains(city, destinations):
 print(contains('Barcelona', destinations))
 print(contains('Nashville', destinations))
 print(contains('New York City', destinations))
+
+# True
+# False
+# True

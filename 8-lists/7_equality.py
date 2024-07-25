@@ -4,8 +4,10 @@
 
 # Copy Code
 list1 = [2, 6, 4]
-list2 = [2, 6, 4]
+list2 = [2, 6, 4, 4]
 
 print(list1 == list2)
+if list2 > list1:
+    print('2')
 
 # expect True, number of elements in the lists are the same, the elements are the same

@@ -13,3 +13,13 @@ while index <= len(str_list) - 1:
   index += 1
 new_string =' '.join(cap_words)
 print(new_string)
+
+
+# def capitalize_words(string):
+#     return string.title()
+
+# string = 'launch school tech & talk'
+# result = capitalize_words(string)
+# print(result)  # Launch School Tech & Talk
+
+# title method capitalizes every word in the string
